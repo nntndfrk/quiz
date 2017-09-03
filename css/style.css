@@ -2,6 +2,16 @@ body {
     font-family: Consolas;
 }
 
+footer {
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+#question {
+    font-weight: bold;
+    font-size: 150%;
+}
+
 #app {
     max-width: 600px;
     margin: 64px auto;
