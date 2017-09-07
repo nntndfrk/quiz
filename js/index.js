@@ -51,7 +51,7 @@ let questions = [
     }
 ];
 
-let quiz = new Quiz('JS Quiz', questions);
+let quiz = new Quiz('JS Quiz 2 2 3 1 4', questions);
 
 let app = new App({
     element: document.querySelector('#app'),

@@ -26,11 +26,7 @@ class App {
 
     handleAnswerButtonClick({ target }) {
         this.quiz.checkAnswer(target.innerText);
-        if (this.quiz.step < this.quiz.totalQuiestions) {
-            this.displayNext();
-        } else {
-            this.displayScore();
-        }
+        (!this.quiz.hasEnded) ? this.displayNext() : this.displayScore();
     }
 
     displayNext() {
